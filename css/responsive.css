@@ -18,11 +18,11 @@
 @media (max-width: 575.98px) {
   /* Header Part Start  */
   .navbar-toggler .fa-solid {
-    color: #FF5A3C;
+    color: #ff5a3c;
     font-size: 35px;
   }
   .navbar-nav {
-    background: #FF5A3C;
+    background: #ff5a3c;
     text-align: center;
     padding: 10px 0;
     border-radius: 10px;
@@ -33,21 +33,21 @@
   .nav-link {
     padding: 15px !important;
   }
-  .resgap{
-    margin-top: 10px
+  .resgap {
+    margin-top: 10px;
   }
-  .contact{
+  .contact {
     display: flex;
-    justify-content:center ;
+    justify-content: center;
     align-items: center;
   }
   /* Header Part End  */
   /* Banner part Start  */
-  .bannerContent{
+  .bannerContent {
     width: 100%;
     text-align: center;
   }
-  .topText{
+  .topText {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -57,7 +57,7 @@
   .bannerPart {
     padding: 40px 0;
   }
-  .topText{
+  .topText {
     display: flex;
     justify-content: center;
   }
@@ -73,5 +73,31 @@
     height: 150px;
   }
   /* Banner part End  */
-
+  /* Dreams  part Start  */
+  .container {
+    flex-wrap: wrap;
+  }
+  .dreamsPart {
+    padding: 50px 0;
+  }
+  .leftLowerDiv img {
+    height: 490px;
+  }
+  .leftDiv h5{
+    text-align: center;
+    margin-top: 50px;
+  }
+  .leftDiv h3{
+    font-size: 25px;
+    text-align: center;
+  }
+  .perfect {
+    height: 170px;
+    width: 470px;
+  }
+  .perfect_sec {
+    height: 170px;
+    width: 470px;
+  }
+  /* Dreams  part End  */
 }
