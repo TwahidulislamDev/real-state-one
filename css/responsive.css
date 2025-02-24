@@ -1,0 +1,77 @@
+/* Extra large devices  */
+@media (min-width: 1200px) {
+}
+
+/* Large devices  */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Small devices  */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Extra small devices  */
+@media (max-width: 575.98px) {
+  /* Header Part Start  */
+  .navbar-toggler .fa-solid {
+    color: #FF5A3C;
+    font-size: 35px;
+  }
+  .navbar-nav {
+    background: #FF5A3C;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 10px;
+  }
+  .nav-item a {
+    color: #ffff;
+  }
+  .nav-link {
+    padding: 15px !important;
+  }
+  .resgap{
+    margin-top: 10px
+  }
+  .contact{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+  }
+  /* Header Part End  */
+  /* Banner part Start  */
+  .bannerContent{
+    width: 100%;
+    text-align: center;
+  }
+  .topText{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bannerPart {
+    padding: 40px 0;
+  }
+  .topText{
+    display: flex;
+    justify-content: center;
+  }
+  .bannerH1 {
+    font-size: 40px;
+  }
+  .bannerH5 {
+    font-size: 14px;
+    padding-bottom: 15px;
+  }
+  .deals img {
+    width: 150px;
+    height: 150px;
+  }
+  /* Banner part End  */
+
+}
