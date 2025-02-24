@@ -16,10 +16,11 @@
 
 /* Extra small devices  */
 @media (max-width: 575.98px) {
+  
   /* Header Part Start  */
   .navbar-toggler .fa-solid {
     color: #ff5a3c;
-    font-size: 35px;
+    font-size: 45px;
   }
   .navbar-nav {
     background: #ff5a3c;
@@ -32,9 +33,6 @@
   }
   .nav-link {
     padding: 15px !important;
-  }
-  .resgap {
-    margin-top: 10px;
   }
   .contact {
     display: flex;
@@ -94,11 +92,11 @@
   }
   .perfect {
     height: 150px;
-    width: 445px;
+    width: 420px;
   }
   .perfect_sec {
     height: 150px;
-    width: 445px;
+    width: 420px;
   }
   /* Dreams  part End  */
 }
