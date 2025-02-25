@@ -10,7 +10,7 @@ a:hover {
   display: inline-block;
 }
 ul,
-ol {
+ol, li {
   list-style-type: none;
 }
 h1,
@@ -242,7 +242,8 @@ p {
 
 /* Service Part Start  */
 .servicePart{
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 60px;
 }
 .serviceText{
   font-size: 20px;
@@ -317,6 +318,56 @@ p {
   color: #ff5a3c;
 }
 /* Service Part End  */
+
+/* appartment Part Start  */
+.appartmentPart{
+  padding-bottom: 100px;
+}
+.mesurment a{
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Nunito", serif
+}
+.gardenArea{
+  width: 50%;
+  height: 670px;
+  background: #f2f6f7;
+}
+.gardenDesing{
+  width: 50%;
+}
+.gardenDesing img{
+  width: 100%;
+}
+.gardenInnerArea{
+  margin: 50px;
+}
+.gardenInnerArea h3{
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Poppins", serif;
+  line-height: 120%;
+  padding: 30px 0;
+  color: #0A2C3D;
+}
+.gardenInnerArea p{
+  color: #5C727D;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Nunito", serif;
+  line-height: 130%;
+}  
+.mainMesurment li{
+  font-size: 20px;
+  font-size: 500;
+  font-family: "Nunito", serif;
+  padding-bottom: 35px;
+}
+/* appartment Part End  */
+
+/* Banner Part Start  */
+/* Banner Part End  */
 
 /* Banner Part Start  */
 /* Banner Part End  */
