@@ -16,7 +16,6 @@
 
 /* Extra small devices  */
 @media (max-width: 575.98px) {
-  
   /* Header Part Start  */
   .navbar-toggler .fa-solid {
     color: #ff5a3c;
@@ -41,6 +40,9 @@
   }
   /* Header Part End  */
   /* Banner part Start  */
+  .bannerPart {
+    position: relative;
+  }
   .bannerContent {
     width: 100%;
     text-align: center;
@@ -67,8 +69,11 @@
     padding-bottom: 15px;
   }
   .deals img {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 12px;
+    left: 0px;
   }
   /* Banner part End  */
   /* Dreams  part Start  */
@@ -80,13 +85,13 @@
   }
   .leftLowerDiv img {
     height: 490px;
-    width: 380px;
+    width: 375px;
   }
-  .leftDiv h5{
+  .leftDiv h5 {
     text-align: center;
     margin-top: 50px;
   }
-  .leftDiv h3{
+  .leftDiv h3 {
     font-size: 25px;
     text-align: center;
   }
@@ -99,4 +104,35 @@
     width: 370px;
   }
   /* Dreams  part End  */
+  /* space Part Start  */
+  .spacePart {
+    padding: 50px 0;
+    background: none;
+  }
+  .spaceText h5{
+    text-align: center;
+  }
+  .spaceText h3 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .spaceText p{
+    text-align: center;
+    font-size: 12px;
+  }
+  /* space Part End  */
+
+  /* Service Part Start  */
+  .serviceCard p {
+    left: 75px;
+  }
+  /* Service Part End  */
+
+  /* space Part Start  */
+
+  /* space Part End  */
+
+  /* space Part Start  */
+
+  /* space Part End  */
 }
