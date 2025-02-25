@@ -261,9 +261,9 @@ p {
   text-align: center;
 }
 .serviceCard{
-  height: 450px;
+  text-align: center;
+  height: 420px;
   background: #f6f7f7;
-  position: relative;
   transition: .5s; 
 }
 .serviceCard:hover{
@@ -272,17 +272,20 @@ p {
   box-shadow: -2px -2px 15px -5px rgba(0, 0, 0, 0.75);
   cursor: pointer;
 }
-.serviceImg{
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50% ,-10%);
+.serviceImgDiv{
+  width: 100%;
+  height: 40%;
+  position: relative; 
 }
-.serviceCard h3{
+.ServiceImg{
+  padding-top: 30px;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50% ,-50%);
+  transform: translate(-50%, -50%);
+}
+.serviceCard h3{
+  padding-top: 30px;
   font-size: 30px;
   font-weight: 600;
   font-family: "Poppins", serif;
@@ -293,8 +296,7 @@ p {
   color: #ff5a3c;
 }
 .serviceCard p{
-  position: absolute;
-  top: 60%;
+  padding: 30px 0;
   font-size: 18px;
   font-weight: 400;
   font-family: "Nunito", serif;
@@ -303,10 +305,6 @@ p {
   text-align: center;
 }
 .serviceCard a{
-  position: absolute;
-  top: 90%;
-  left: 50%;
-  transform: translate(-50% ,-90%);
   font-size: 18px;
   font-weight: 700;
   font-family: "Nunito", serif;

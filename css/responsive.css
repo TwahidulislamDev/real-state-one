@@ -123,6 +123,9 @@
   /* space Part End  */
 
   /* Service Part Start  */
+  .servicePart {
+    padding: 90px 0;
+  }
   .serviceCard p {
     left: 75px;
   }
