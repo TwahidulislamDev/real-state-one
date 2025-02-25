@@ -157,6 +157,9 @@
   .gardenInnerArea {
     margin-left: 50px;
   }
+  .mainMesurment li {
+    padding-bottom: 25px;
+  }
   .mainMesurment li{
     font-size: 16px;
     font-size: 400;
